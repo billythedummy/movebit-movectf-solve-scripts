@@ -1,0 +1,12 @@
+[package]
+name = "ctf"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+# Change these 2 to the address your challenge was deployed to 
+ctf = "0x4430fe8d9a8a97e4512b6b1018bac373cd41e16c"
+game = "0x4430fe8d9a8a97e4512b6b1018bac373cd41e16c"
+sui = "0x2"
