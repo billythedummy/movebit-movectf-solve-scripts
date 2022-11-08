@@ -1,0 +1,11 @@
+[package]
+name = "flash"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+# Change this to the address your challenge was deployed to 
+movectf =  "0x6c8ec13c47db2a4397e181d13c8a12103573aa2c"
+sui =  "0000000000000000000000000000000000000002"
